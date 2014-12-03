@@ -15,16 +15,17 @@ MPI installation.
 
 ####Contents of this dir####
 
-signalflow_serverclient.png shows the flow of signals and data between
+`signalflow_serverclient.png` shows the flow of signals and data between
 root (Server) to worker ranks (Clients). Only one rank i is shown, all
 other ranks communicate in an identical fashion, and simultaneously,
 with root. Solid arrows show the advancement of the program execution,
 dashed arrows indicate communication between root and ranks (the
 sending of signals and of data).
 
-minimal.py is a trivial example of how to use the ServerClient class. Run:
+`minimal.py` is a trivial example of how to use the ServerClient class. Run:
 
 ```
    python minimal.py --help
+```
 
 for more info. 

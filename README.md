@@ -24,6 +24,7 @@ sending of signals and of data).
 
 minimal.py is a trivial example of how to use the ServerClient class. Run:
 
- python minimal.py --help
+```
+   python minimal.py --help
 
 for more info. 

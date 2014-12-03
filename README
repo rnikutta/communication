@@ -1,0 +1,8 @@
+signalflow_serverclient.png shows the flow of signals and data between
+root (Server) to worker ranks (Clients).
+
+minimal.py is a trivial example of how to use the ServerClient class. Run:
+
+ python minimal.py --help
+
+for more info. 
